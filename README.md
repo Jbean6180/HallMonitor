@@ -1,2 +1,2 @@
 # HallMonitor
-Discord Server Management Bot
+WIP* Discord Server Management Bot

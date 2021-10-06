@@ -11,7 +11,7 @@ from random import choice
 client = commands.Bot(command_prefix='?',intents = discord.Intents.all(),case_insensitive=True)
 
 
-status = ['You!','Dash Parr','that ass!']
+status = ['You!','Dash Parr']
 
 
 @client.event
@@ -21,22 +21,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    rules = [
-        '#1  NO Mistakes',
-        '#2  NO weird noises until 12:00 AM EST',
-        '#3  NO weird questions until 12:00 AM EST',
-        '#4  "None of that"',
-        '#5  NO burping in VC',
-        '#6  NO slurping',
-        '#7  No Heavy breathing',
-        '#8  NO Bitching about the rules',
-        '#9  NO Fucking da rules',
-        '#10 NO Masturbating in the VC',
-        '#11 NO Simping',
-        '#12 NO "Cummies"',
-        '#13 NO Free Clout',
-        '#14 NO Spoiling',
-    ]
+    rules = ["Your server's rules 1-14"]
     if message.content.startswith("?rule 01"):
         await message.channel.send(rules[0])
     elif message.content.startswith("?rule 2"):

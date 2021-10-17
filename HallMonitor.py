@@ -51,7 +51,7 @@ async def on_message(message):
     elif message.content.startswith("?rule 14"):
         await message.channel.send(rules[13])
     elif message.content.startswith("?rule"):
-        await message.channel.send("Nigga that isn't a rule.")
+        await message.channel.send("That isn't a rule.")
     
 
 @tasks.loop(seconds=20)
